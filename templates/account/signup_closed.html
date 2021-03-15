@@ -1,0 +1,19 @@
+    <style>
+body {
+  background-image: url('https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/cpiljticobsclhchddvy');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Sign Up Closed" %}{% endblock %}
+
+{% block content %}
+<h1>{% trans "Sign Up Closed" %}</h1>
+
+<p>{% trans "We are sorry, but the sign up is currently closed." %}</p>
+{% endblock %}

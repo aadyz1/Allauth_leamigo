@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resume</title>
+<link type="text/css" rel="stylesheet" href="{% static 'css/blue.css' %}" />
+<link type="text/css" rel="stylesheet" href="{% static 'css/print.css' %}" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+</head>
+<body>
+<a href="{% url 'account_logout' %}">Sign Out</a>
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="{% static 'images/image.jpg' %}" alt="Adnan Farooq" />
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name">Adnan Zargar <br />
+
+              <span>Backend Developer</span></h1>
+            <ul>
+              <li class="ad">lane 4 house 24 Badam bagh sopore </li>
+              <li class="mail">aadi113114@gmail.com</li>
+              <li class="tel">+917780828074</li>
+              <li class="web">www.abcxyz.com</li>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-ad.gif' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-contact.jpg' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-mail.gif' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-save.jpg' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-facebook.jpg' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-twitter.jpg' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-tel.gif' %}" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="#" title="Download .pdf"><img src="{% static 'images/icn-web.gif' %}" alt="Download the pdf version" /></a></li>
+
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>OBJECTIVE</h2>
+          <p>To obtain employment and work with a company that offers a positive
+atmosphere to learn and implement new skills and technologies as a
+team player for the betterment of the organization and society which
+will also built up an immunity for becoming a successful Analyst</p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2>EDUCATION</h2>
+          <div class="content">
+            <h3>jun 2016 - jun 2020</h3>
+            <p> Gurukula kangri Vishwavidyalaya Haridwar<br />
+              <em>Computer science and engineering</em></p>
+          </div>
+          <div class="content">
+            <h3>jan 2015 - dec 2015</h3>
+            <p>10+2 <br />
+              <em>Govt boys higher secondary school sopore</em></p>
+          </div>
+        </div>
+        </div>
+          <div class="content">
+            <h3>march 2012 - march 2013</h3>
+            <p>10th <br />
+              <em>JNV shahkote baramulla</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+
+    <div class="entry">
+          <h2>SKILLS</h2>
+          <div class="content">
+            <h3>Programming</h3>
+            <ul class="skills">
+              <li>Python</li>
+              <li>Power BI</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>Automation</li>
+              <li>Cloud Computing</li>
+              <li>Data wearhosing</li>
+              <li>Excel</li>
+              <li>Django</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Languages</h3>
+            <ul class="skills">
+              <li>CSS/XHTML</li>
+              <li>python</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <div class="entry">
+        <h2>WORKS</h2>
+        	<ul class="works">
+        		<li></li>
+        		<li>On Django</li>
+        		<li>Rest Framework</li>
+        		<li>API</li>
+        		<li>Java</li>
+              <li>Css</li>
+              <li>HTML</li>
+
+        	</ul>
+        </div>
+        <!-- Begin 5th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <!-- End Paper -->
+
+  <div class="wrapper-bottom"></div>
+
+<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
+</body>
+</html>
